@@ -11,9 +11,9 @@ while True:
     if hidden_number > guess:
         print('Ваше число меньше того, что загадано')
     
-    if hidden_number < guess:
+    elif hidden_number < guess:
         print('Ваше число больше того, что загадано')
     
-    if hidden_number == guess:
+    elif hidden_number == guess:
         break    
 print('Отличная интуиция! Вы угадали число :)')
